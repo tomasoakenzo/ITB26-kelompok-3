@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+    <!-- Tulisan ini muncul di tab browser sebagai judul halaman -->
+    <title>Block Chain - Company Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font dari Google. Link-nya panjang, tidak perlu dihafal :) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ============================= HEADER / NAVBAR ============================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">BC</span>
+        <span class="brand-text">
+          <strong>BLock Chain</strong>
+          <small>Kelompok 3 &middot; IT Bootcamp HIMTIKA</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#hero">Beranda</a>
+        <a href="#poster">Poster STBI</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#tim">Tim</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================= HERO SECTION ============================= -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <span class="chip">Kelompok 3 &bull; IT Bootcamp HIMTIKA Unsika</span>
+      <h1>Block Chain</h1>
+      <p class="hero-sub">
+        Blockchain bukan sekadar kelompok biasa, melainkan sebuah laboratorium gagasan. Di sinilah ide-ide sederhana diuji, diperbaiki lewat kolaborasi terbuka, hingga akhirnya bertumbuh menjadi teknologi nyata yang mengubah cara kita saling percaya.
+      </p>
+      <div class="hero-actions">
+        <a href="#poster" class="btn btn-primary">Lihat Poster STBI</a>
+        <a href="#tentang" class="btn btn-ghost">Baca Filosofi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PENYELENGGARA ============================= -->
+  <section class="partners" aria-label="Penyelenggara acara">
+    <div class="container partners-inner">
+      <div class="partners-logos">
+
+        <div class="partner">
+          <img src="ITB BC 2026/assets/logo/logo_itb.png" alt="Logo IT Bootcamp" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Kegiatan</small>
+            <strong>IT Bootcamp</strong>
+          </span>
+        </div>
+
+        <div class="partner">
+          <img src="ITB BC 2026/assets/logo/himtika.png" alt="Logo HIMTIKA Unsika" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Diselenggarakan oleh</small>
+            <strong>HIMTIKA Unsika</strong>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= POSTER STBI (WAJIB) ============================= -->
+  <section id="poster" class="section">
+    <div class="container poster-grid">
+      <div class="poster-image">
+        <img src="/ITB BC 2026/assets/poster/poster.png" alt="Poster STBI Kelompok 3"
+          onerror="this.parentElement.classList.add('img-fallback')" style="max-height: 480px; aspect-ratio: 16/9; align-self: center; justify-self: center;" />
+      </div>
+      <div class="poster-info">
+        <span class="eyebrow">Poster Resmi Acara</span>
+        <h2>Poster STBI Kelompok Kami</h2>
+        <p>
+          Poster STBI kami mengusung konsep 'Menulis Kode, Merancang Masa Depan'. Dengan gaya ilustrasi doodle yang simpel, kasual, dan retro, poster ini mendobrak stigma bahwa dunia IT selalu kaku dan dipenuhi kode yang rumit. Kami ingin menyampaikan pesan bahwa setiap inovasi teknologi yang hebat selalu bermula dari coretan ide-ide sederhana yang liar dan menyenangkan.
+        </p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TENTANG / FILOSOFI NAMA (WAJIB) ============================= -->
+  <section id="tentang" class="section section-muted">
+    <div class="container tentang-grid">
+      <div class="tentang-text">
+        <span class="eyebrow">Filosofi Kelompok</span>
+        <h2>Kenapa Kami Memilih Nama Ini?</h2>
+        <p>
+          Kami memilih nama Blockchain karena kami melihat kelompok ini sebagai sebuah laboratorium hidup. Di dalam laboratorium, sebuah eksperimen yang gagal bukanlah jalan buntu, melainkan sekumpulan data baru yang akan menuntun pada formula yang lebih optimal.
+        </p>
+        <p>
+          Kami memilih Blockchain karena melihatnya sebagai simbol dari kekuatan sebuah ide yang saling terhubung. Setiap block menyimpan gagasan dan proses yang menjadi dasar bagi langkah berikutnya. Bagi kami, tidak ada ide yang sia-sia, karena setiap kontribusi dapat menjadi bagian dari solusi yang lebih besar. Seperti Blockchain yang kuat karena keterhubungan, kami percaya inovasi lahir dari kolaborasi dan keberanian untuk menyatukan berbagai ide menjadi sesuatu yang berarti.
+        </p>
+      </div>
+      <div class="tentang-visual">
+        <div class="monogram">BC</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TIM: KABING + ANGGOTA (WAJIB) ============================= -->
+  <section id="tim" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Struktur Tim</span>
+        <h2>Kabing &amp; Anggota Kelompok</h2>
+      </div>
+
+      <div class="team-showcase">
+        <div class="team-photo-frame">
+          <img src="/ITB BC 2026/assets/foto-tim/Foto kelompok 3.jpeg" alt="Foto bersama Kabing dan seluruh anggota kelompok"
+            onerror="this.parentElement.classList.add('img-fallback')" />
+        </div>
+
+        <div class="team-names">
+          <div class="kabing-row">
+            <span class="badge-kabing">Kakak Pembimbing</span>
+            <h3>Rizky Fitri Putri Awaliyah</h3>
+          </div>
+
+          <h3 class="names-title">Anggota Kelompok</h3>
+
+          <ul class="member-list">
+            <li>Kenzo Matthew Tomasoa</li>
+            <li>Kayla Indreswari Kinanti Issudibyo</li>
+            <li>Keisya Aurelia Putri</li>
+            <li>Nadya Najwa Nurfatimah</li>
+            <li>Mikhael Joni Butar Butar</li>
+            <li>Djiwa Bhummy Maha Meru Hidayat</li>
+            <li>Muhammad Zaky Apriansyah</li>
+            <li> Muhammad Nafis Rasya Mashuri</li>
+            <li>Ridho Adila Pasha</li>
+            <li> Muhammad Faris</li>
+            <li> Muizzu Rizqi Layl</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- ============================== GALERI KEGIATAN (OPSIONAL) ============================= -->
+  <!-- Jika masih ada waktu akan di lakukan, jika tidak tidak akan di tunjukkan -->
+  <section id="galeri" class="section section-muted">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Dokumentasi</span>
+        <h2>Galeri Kelompok</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="foto hitam polo.avif" alt="Kegiatan 1" /></div>
+        <div class="gallery-item"><img src="foto hitam polo.avif" alt="Kegiatan 2" /></div>
+        <div class="gallery-item"><img src="foto hitam polo.avif" alt="Kegiatan 3" /></div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; 2026 Block Chain (Kelompok 3) &middot; IT Bootcamp HIMTIKA
+        Unsika
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+<!--HEADER SAMPAI FOOTER SUDAH SELESAI DI EDIT-->
